@@ -1,0 +1,67 @@
+/*
+    Abdul Hadi
+    GitHub: https://github.com/abdulhadicse
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+}
+
+.key, .keycode{
+    text-align: center;
+    background-color: white;
+    padding: 5px 20px;
+    box-shadow: 1px 1px 20px 0px #0000001c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.key{
+    margin-right: 20px;
+}
+
+.keycode{
+    margin-left: 20px;
+}
+
+img{
+    
+    height: 80px;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.overlayKey{
+    display: none;
+}
